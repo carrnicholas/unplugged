@@ -90,7 +90,10 @@ textarea {
 
 header,
 footer {
-
+  display: flex;
+  justify-content: center; /* horizontal alignment by default */
+  align-items: center; /* vertical alignment by default */
+  flex-flow: row wrap;
 }
 
 /* Header styles */
