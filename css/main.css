@@ -86,6 +86,107 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ==================== Base header and footer styles -- ALL FORMS */
+
+header,
+footer {
+
+}
+
+/* Header styles */
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+header nav {
+
+}
+
+/* ==================== Header styles -- MOBILE ----- */
+
+/* ----- Hero area and main body ----- */
+.hero-area {
+
+}
+
+aside {
+
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+section { /* catchall section tag...not sure if needed */
+
+}
+
+/* ----- Features area ----- */
+section .features {
+
+}
+
+.features .content-wrapper {
+
+}
+
+.features .features-items {
+
+}
+
+.features article {
+
+}
+
+.features .fontawesome-icon {
+
+}
+
+.features .features-item-description {
+
+}
+
+/* ----- Reviews area ----- */
+section .reviews {
+
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews article {
+
+}
+
+.reviews .fontawesome-icon {
+
+}
+
+.reviews .features-item-description {
+
+}
+
+/* ====================
+* DO NOT CHANGE ANYTHING BELOW THIS BOX
+*
+* DO NOT CHANGE ANYTHING BELOW THIS BOX
+*
+* DO NOT CHANGE ANYTHING BELOW THIS BOX
+==================== */
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +361,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
