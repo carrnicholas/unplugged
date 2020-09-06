@@ -99,29 +99,48 @@ footer {
 /* Header styles */
 
 header {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header .content-wrapper {
-
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav {
+  justify-content: flex-end;
+  align-items: space-between;
+  flex-flow: row wrap;
+}
 
+header nav ul {
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ==================== Header styles -- MOBILE ----- */
 
 /* ----- Hero area and main body ----- */
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper {
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -139,15 +158,19 @@ section { /* catchall section tag...not sure if needed */
 
 /* ----- Features area ----- */
 section .features {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features .content-wrapper {
-
+  justify-content: center;
+  align-items: center;
 }
 
 .features .features-items {
-
+  justify-content: center;
+  align-items: center;
 }
 
 .features article {
