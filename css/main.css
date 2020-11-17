@@ -7,6 +7,8 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+ /* LAST UPDATE: 11-16-20 after about a two month pause!! */
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -156,11 +158,20 @@ section { /* catchall section tag...not sure if needed */
 
 }
 
+/* ===== LAST UPDATE BEFORE BELOW HERE WAS LATE AUGUST, THEN MID NOVEMBER...
+CODE MAY NOT BE COMPLETELY CORRECT...HAVE FORGOTTEN SOME OF THE HTML BECAUSE
+OF THE GAP...BUT I AM SURE IT WILL COME BACK TO ME!!
+----- add flex-flow: row wrap to a few lines of CSS...check code against
+Skillcrush's code base! =====
+
+Pushed updated code to Github on 11-16-20 */
+
 /* ----- Features area ----- */
-section .features {
-  display: flex;
-  justify-content: center;
+section .features { /* last update started here adding flex-flow...11-16-20 */
+  display: flex; /* NOT SURE IF CODE ADDING row-wrap BELOW HERE IS RIGHT! */
+  justify-content: center; /* GAP BETWEEN LESSONS WAS 2 MONTHS...CHECK CODE!! */
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .features .content-wrapper {
@@ -171,6 +182,7 @@ section .features {
 .features .features-items {
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .features article {
@@ -187,6 +199,7 @@ section .features {
 
 /* ----- Reviews area ----- */
 section .reviews {
+  flex-flow: row wrap;
 
 }
 
@@ -203,6 +216,22 @@ section .reviews {
 }
 
 .reviews .features-item-description {
+
+}
+
+section .mission {
+  flex-flow: row wrap;
+}
+
+section .contact-section {
+  flex-flow: row wrap;
+}
+
+section .faq {
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
 
 }
 
