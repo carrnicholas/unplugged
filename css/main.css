@@ -232,7 +232,7 @@ section .faq {
 }
 
 .faq .content-wrapper {
-
+  flex-flow: row wrap;
 }
 
 /* ====================
