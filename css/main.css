@@ -100,10 +100,10 @@ footer { /* Check against Skillcrush code...looks good! */
 
 /* Header styles */
 
- /* header {
+header {
   display: flex;
   justify-content: center;
-  align-items: center; -- Did not need this, had same code above per Skillcrush */
+  align-items: center; -- /* Did not need this, had same code above per Skillcrush */
 }
 
 header .content-wrapper {
@@ -113,16 +113,30 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header .header-divider {
+  width: 72%;
+}
+
 header nav {
   display: flex; /* forgot this line when checking Skillcrush code */
   justify-content: flex-end;
   align-items: space-between;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul { /* looks good */
   justify-content: space-between;
   align-items: center;
+  width: 72%;
+}
+
+footer .content-wrapper { /* did not find this in solution code at all */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 55%;
 }
 
 footer .social-icons { /* forgot this section entirely */
@@ -135,6 +149,14 @@ footer .social-icons p { /* forgot this section entirely */
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 /* ==================== Header styles -- MOBILE ----- */
 
@@ -142,7 +164,7 @@ footer .social-icons p { /* forgot this section entirely */
 .hero-area {
   display: flex;
   justify-content: center;
-  /* align-items: center; -- did not need this per Skillcrush */
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -153,18 +175,24 @@ aside { /* looks good */
   flex-flow: row wrap;
 }
 
-/* aside .content-wrapper {
+aside .content-wrapper {
   justify-content: center;
-  align-items: center; -- Skillcrush solution did not have this section */
+  align-items: center;
 
 }
 
 aside .form-description {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .form {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 section { /* catchall section tag...not sure if needed */
@@ -180,11 +208,16 @@ Skillcrush code base! =====
 Pushed updated code to Github on 11-16-20 */
 
 /* ----- Features area ----- */
-section .features { /* last update started here adding flex-flow...11-16-20 */
+.features { /* last update started here adding flex-flow...11-16-20 */
   display: flex; /* NOT SURE IF CODE ADDING row-wrap BELOW HERE IS RIGHT! */
   justify-content: center; /* GAP BETWEEN LESSONS WAS 2 MONTHS...CHECK CODE!! */
-  /* align-items: center; -- Skillcrush solution did not have this */
+  align-items: center; -- /* Skillcrush solution did not have this */
   flex-flow: row wrap;
+}
+
+.features h3 {
+  justify-content: center;
+  align-items: center;
 }
 
 .features .content-wrapper { /* Skillcrush solution didn't have this, but leaving */
@@ -200,7 +233,7 @@ section .features { /* last update started here adding flex-flow...11-16-20 */
 }
 
 .features article {
-
+  width: 75%;
 }
 
 .features .fontawesome-icon {
@@ -208,6 +241,7 @@ section .features { /* last update started here adding flex-flow...11-16-20 */
 }
 
 .features .features-item-description {
+  width: 75%;
 
 }
 
@@ -221,18 +255,27 @@ section .reviews {
 
 /* these 3 section below weren't in the Skillcrush solution code, leaving them */
 .reviews .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.reviews article {
-
+.reviews article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reviews .fontawesome-icon {
 
 }
 
-.reviews .features-item-description {
+.reviews article .features-item-description {
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 75%;
 
 }
 /* these 3 sections above weren't in the Skillcrush solution code, leaving them */
