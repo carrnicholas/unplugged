@@ -111,6 +111,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 72%; /* gussed on percentage here */
 }
 
 header .header-divider {
@@ -259,6 +260,10 @@ section .reviews {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 55%;
 }
 
 .reviews article h4 {
