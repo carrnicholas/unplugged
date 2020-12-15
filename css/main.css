@@ -104,6 +104,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center; -- /* Did not need this, had same code above per Skillcrush */
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -112,6 +113,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   width: 72%; /* gussed on percentage here */
+  margin: 0; /* need to override browser default, per Skillcrush */
 }
 
 header .header-divider {
@@ -138,6 +140,10 @@ footer .content-wrapper { /* did not find this in solution code at all */
   align-items: center;
   flex-flow: row wrap;
   width: 55%;
+}
+
+footer p {
+  margin: 0; /* need to override browser default, per Skillcrush */
 }
 
 footer .social-icons { /* forgot this section entirely */
@@ -167,6 +173,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 15px 0;
 }
 
 aside { /* looks good */
@@ -216,9 +223,14 @@ Pushed updated code to Github on 11-16-20 */
   flex-flow: row wrap;
 }
 
+.features p {
+  margin: 0; /* need to override browser default, per Skillcrush */
+}
+
 .features h3 {
   justify-content: center;
   align-items: center;
+  padding: 15px 0;
 }
 
 .features .content-wrapper { /* Skillcrush solution didn't have this, but leaving */
