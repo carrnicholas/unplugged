@@ -114,6 +114,7 @@ header .content-wrapper {
   flex-flow: row wrap;
   width: 72%; /* gussed on percentage here */
   margin: 0; /* need to override browser default, per Skillcrush */
+  max-width: 200px;
 }
 
 header .header-divider {
