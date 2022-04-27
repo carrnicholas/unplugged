@@ -432,7 +432,83 @@ section .faq {
 @media only screen and (min-width: 768px) { /* breakpoint for tablets */
   /* tablet styles go here */
   /* spelled screen wrong */
-}
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  header . content-wrapper {
+    width:768px;
+    justify-content: center;
+  }
+
+  header nav {
+    width: 638px;
+  }
+
+  header nav ul {
+    justify-content: center;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* Hero area */
+
+  /* Aside */
+
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+  }
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+  } /* stopped here at 11:55 on 4.27.22 */
+
+  .features .features-item-description {
+    width: 638px;
+  }
+
+  .reviews article {
+
+  }
+
+  .reviews article div {
+    width: 638px;
+  }
+
+  footer .content-wrapper {
+    width:
+    margin: 100px 0;
+  }
+
+  .footer-content {
+
+  }
+
+  .footer-contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 638px;
+  }
+
+/* End tablet breakpoints */}
 
 @media only screen and (min-width: 1200px) { /* breakpoint for desktop */
   /* desktop styles go here */
